@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
+const autoprefixer = require('autoprefixer')
 
 module.exports = {
   entry: './index.js',
@@ -18,7 +19,7 @@ module.exports = {
     static: {
       directory: path.join(__dirname, 'public')
             },
-    open: true,
+    open: false,
     hot: true,
     liveReload: true,
   },
@@ -61,11 +62,9 @@ module.exports = {
             // if you use postcss 7.x skip the key
             postcssOptions: {
               // postcss plugins, can be exported to postcss.config.js
-              plugins: function () {
-                return [
-                  require('autoprefixer')
-                ];
-              }
+              plugins: [
+                autoprefixer
+              ]
             }
           }
         }, {

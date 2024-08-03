@@ -3,10 +3,10 @@ import Header from "./CommonComponents/Header";
 
 const App = () =>{
     return (
-        <h1>
+        <div>
             <Header/>
             Welcome to React App thats build using Webpack and Babel separately
-        </h1>
+        </div>
     )
 }
 

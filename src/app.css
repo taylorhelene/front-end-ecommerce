@@ -1,7 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Modern+Antiqua&display=swap');
 .merriweather-light {
     font-family: "Merriweather", serif;
     font-weight: 300;
     font-style: normal;
+    font-size: smaller;
   }
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: smaller;
+  }
+  .modern-antiqua-regular {
+    font-family: "Modern Antiqua", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: larger;
+  }
+
+  .merriweather-bold-white {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:large;
+    color: white;
+  }
+  

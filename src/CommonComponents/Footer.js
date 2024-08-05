@@ -5,8 +5,8 @@ import  '../app.css';
 
 const Footer=()=>{
     return(
-        <footer className="bg-secondary align-bottom mt-auto ">
-            <div className="flex justify-center row mx-auto">
+        <footer className="bg-secondary  position-absolute bottom-0 container-fluid ">
+            <div className="justify-center  row  py-4">
                 <div className="col-sm-2 ">
                     <p className="merriweather-bold-white">Contact</p>
                     <p className="merriweather-bold-white-small">Contact Us</p>

@@ -3,11 +3,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from "./CommonComponents/Header";
 import Footer from "./CommonComponents/Footer";
+import Home from "./Home/Home";
 
 const App = () =>{
     return (
-        <div className="flex container">
+        <div className="">
             <Header/>
+            <Home/>
             <Footer/>
         </div>
     )

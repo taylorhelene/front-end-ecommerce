@@ -6,7 +6,7 @@ import { FiShoppingCart } from "react-icons/fi";
 
 const Header =()=>{
     return(
-        <header className="bg-white px-4 py-2 position-sticky">
+        <header className="bg-white px-4 py-2  sticky-top">
             <div className="border-bottom">
                 <div className="flex justify-center row">
                     <p className="merriweather-light col-sm-4">Buy Now, Pay On CheckOut + We answer any Enquiries</p>

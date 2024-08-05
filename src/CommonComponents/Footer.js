@@ -5,7 +5,7 @@ import  '../app.css';
 
 const Footer=()=>{
     return(
-        <footer className="bg-secondary  position-absolute bottom-0 container-fluid ">
+        <footer className="bg-secondary  bottom-0 container-fluid ">
             <div className="justify-center  row  py-4">
                 <div className="col-sm-2 ">
                     <p className="merriweather-bold-white">Contact</p>

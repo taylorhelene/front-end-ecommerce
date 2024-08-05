@@ -17,12 +17,12 @@ const Header =()=>{
                 </div>
             </div>
             <div className="flex justify-center row py-1">
-                <p className="modern-antiqua-regular col-sm-4">SolidCheckout</p>
-                <div className="row col-sm-4 merriweather-bold">
-                    <p className="col-sm-1 px-1">vehicles</p>
-                    <p className="col-sm-1 px-1">home</p>
-                    <p className="col-sm-1 px-1">home</p>
-                    <p className="col-sm-1 px-1">home</p>
+                <p className="modern-antiqua-regular col-sm-2">SolidCheckout</p>
+                <div className="row col-sm-6 merriweather-bold">
+                    <p className="col-sm-1 px-2">vehicles</p>
+                    <p className="col-sm-1 px-2">home</p>
+                    <p className="col-sm-1 px-2">home</p>
+                    <p className="col-sm-1 px-2">home</p>
                 </div>
                 <div className="row col-sm-4 ml-auto justify-content-end">
                     <FiShoppingCart className="col-sm-2"/>

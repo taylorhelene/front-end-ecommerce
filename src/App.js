@@ -7,7 +7,6 @@ const App = () =>{
         <div>
             <Header/>
             <Footer/>
-            Welcome to React App thats build using Webpack and Babel separately
         </div>
     )
 }

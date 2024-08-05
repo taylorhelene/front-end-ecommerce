@@ -23,7 +23,13 @@
     font-family: "Merriweather", serif;
     font-weight: 700;
     font-style: normal;
-    font-size:large;
+    font-size:medium;
     color: white;
   }
-  
+  .merriweather-bold-white-small {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:small;
+    color: white;
+  }

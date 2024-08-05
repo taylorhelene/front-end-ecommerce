@@ -5,10 +5,12 @@ import  '../app.css';
 
 const Footer=()=>{
     return(
-        <footer className="bg-gray-700 ">
-            <div className="flex justify-center row">
+        <footer className="bg-secondary align-bottom mt-auto ">
+            <div className="flex justify-center row mx-auto">
                 <div className="col-sm-2 ">
                     <p className="merriweather-bold-white">Contact</p>
+                    <p className="merriweather-bold-white-small">Contact Us</p>
+                    <p className="merriweather-bold-white-small">📞 +2547000000</p>
                 </div>
                 <div className="col-sm-2 ">
                     <p className="merriweather-bold-white">Support</p>

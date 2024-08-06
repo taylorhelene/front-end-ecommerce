@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Modern+Antiqua&display=swap');
+
 .merriweather-light {
     font-family: "Merriweather", serif;
     font-weight: 300;
@@ -34,6 +35,14 @@
     color: white;
   }
   .homepng{
-    width:99vw;
-    height:90vh;
+    width:99%;
+    height:80vh;
+    background-image: url('../src/images/home.png');
+  }
+  .merriweather-bold-white-large {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size:xx-large;
+    color: white;
   }

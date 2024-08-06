@@ -2,12 +2,20 @@ import React from "react";
 // Import our custom CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  '../app.css'; 
-import homepng from '../images/home.png'
+import background from "../images/home.png";
+
 
 const Home=()=>{
     return(
-        <div>
-            <img src={homepng} className="homepng"></img>
+        <div >
+            <div style={{ backgroundImage: `url(${background})`}} className="homepng border rounded">
+                <div className="row m-2">
+                    <div className="col-sm-3">
+                        <p className=" merriweather-bold-white-large ">Purchase Items and Pay on Pick-Up</p>
+                        <p className=" merriweather-bold-white ">Contact us to get specified orders on items </p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

@@ -3,6 +3,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  '../app.css'; 
 import { FiShoppingCart } from "react-icons/fi";
+import { Outlet, Link } from "react-router-dom";
 
 const Header =()=>{
     return(
@@ -19,7 +20,7 @@ const Header =()=>{
             <div className="flex justify-center row py-1">
                 <p className="modern-antiqua-regular col-sm-2">SolidCheckout</p>
                 <div className="row col-sm-6 merriweather-bold">
-                    <p className="col-sm-1 m-2">decor</p>
+                    <Link to="/" className="col-sm-1 m-2">Decor</Link>
                     <p className="col-sm-1 m-2">apparrel</p>
                     <p className="col-sm-1 m-2">electronics</p>
                     <p className="col-sm-1 m-2">home</p>

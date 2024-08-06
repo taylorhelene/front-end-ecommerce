@@ -11,8 +11,8 @@ const Home=()=>{
             <div style={{ backgroundImage: `url(${background})`}} className="homepng border rounded">
                 <div className="row m-2">
                     <div className="col-sm-3">
-                        <p className=" merriweather-bold-white-large ">Purchase Items and Pay on Pick-Up</p>
-                        <p className=" merriweather-bold-white ">Contact us to get specified orders on items </p>
+                        <p className=" merriweather-bold-large ">Purchase Items and Pay on Pick-Up</p>
+                        <p className=" merriweather-bold-black ">Contact us to get specified orders on items. Get requested installations on electronics and household items. </p>
                     </div>
                 </div>
             </div>

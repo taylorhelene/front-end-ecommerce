@@ -39,10 +39,15 @@
     height:80vh;
     background-image: url('../src/images/home.png');
   }
-  .merriweather-bold-white-large {
+  .merriweather-bold-large {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: normal;
     font-size:xx-large;
-    color: white;
+  }
+  .merriweather-bold-black {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:medium;
   }

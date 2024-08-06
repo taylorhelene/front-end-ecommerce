@@ -1,17 +1,20 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import Header from "./CommonComponents/Header";
-import Footer from "./CommonComponents/Footer";
 import Home from "./Home/Home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Decor from "./Decor/Decor";
+import Layout from "./Layout";
 
 const App = () =>{
     return (
-        <div className="">
-            <Header/>
-            <Home/>
-            <Footer/>
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Layout />}>
+                    <Route index element={<Home />} />
+                    <Route path="decor" element={<Decor />} />
+                </Route>
+            </Routes>
+        </BrowserRouter>
     )
 }
 

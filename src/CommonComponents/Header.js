@@ -20,7 +20,7 @@ const Header =()=>{
             <div className="flex justify-center row py-1">
                 <p className="modern-antiqua-regular col-sm-2">SolidCheckout</p>
                 <div className="row col-sm-6 merriweather-bold">
-                    <Link to="/" className="col-sm-1 m-2">Decor</Link>
+                    <Link to="decor" className="col-sm-1 m-2">Decor</Link>
                     <p className="col-sm-1 m-2">apparrel</p>
                     <p className="col-sm-1 m-2">electronics</p>
                     <p className="col-sm-1 m-2">home</p>
